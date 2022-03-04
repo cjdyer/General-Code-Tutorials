@@ -15,7 +15,7 @@ namespace robot
     SimpleNode::SimpleNode(const std::string& node_name) : Node(node_name)
     {
         // Publishers, subscribers and services
-        m_node_start_req_subscription = create_subscription<node_start_req_t>("simple_node/simple_node", rclcpp::QoS(10),
+        m_node_start_req_subscription = create_subscription<node_start_req_t>("simple_topic/simple_topic_node", rclcpp::QoS(10),
                                                 std::bind(&SimpleNode::node_start_req_callback,
                                                 this, std::placeholders::_1));
        SLog::log_info("Started Default ROS Node");

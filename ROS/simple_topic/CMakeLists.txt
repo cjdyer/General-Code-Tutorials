@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(simple)
+project(simple_topic)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -28,19 +28,19 @@ find_package(std_msgs REQUIRED)
 include_directories(include)
 ament_export_include_directories(include)
 
-add_executable(simple
+add_executable(simple_topic_node
   src/simple.cpp
   src/main.cpp
 )
 
 
-ament_target_dependencies(simple rclcpp std_msgs)
+ament_target_dependencies(simple_topic_node rclcpp std_msgs)
 
-target_link_libraries(simple
+target_link_libraries(simple_topic_node
     )
 
 install(TARGETS
-  simple
+  simple_topic_node
   DESTINATION lib/${PROJECT_NAME}
 )
 
