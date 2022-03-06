@@ -1,4 +1,4 @@
- # Simple ROS Tutorial
+ # Simple ROS
 
 This is a rapid introduction to working with ROS2. For further information about the code examples or ROS features used, each folder contains both commented code and an associated readme similar to the one you are reading now.
 
