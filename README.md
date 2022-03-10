@@ -13,7 +13,7 @@ The best place to start with this repository is reading through this file first 
 
 ## Understanding Git Terminology
 
-To get a quick understand I will explain a few key terms.
+To get a quick understand I will explain a few key terms.....
 
 ### Git
 
